@@ -1,0 +1,11 @@
+.contact-list{
+  width: 420px;
+  display: block;
+  position: relative;
+  margin: 200px auto;
+  background: #fff;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border-radius: 10px;
+
+}

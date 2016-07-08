@@ -1,0 +1,19 @@
+.user-header{
+  background-color: red;
+  padding: 10px;
+  color: white;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 100%;
+}
+.user-header .profile-img{
+  width: 60px;
+  border-radius: 50%;
+  border: solid 3px;
+  float: left;
+}
+.user-header .user-info{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
