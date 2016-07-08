@@ -9,4 +9,14 @@ import {UserHeader} from './user-header/user-header.component';
   directives:[UserHeader]
 })
 
-export class ContactList{};
+export class ContactList{
+  onEnterAddContact(newContact:HTMLInputElement){
+    let value = newContact.value;
+    if(value.trim() !== ''){
+      // TODO add to store functionality
+      console.log(value);
+      newContact.value = '';
+    }
+
+  }
+};

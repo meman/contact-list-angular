@@ -7,5 +7,14 @@
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
   border-radius: 10px;
+  box-sizing: border-box;
+}
 
+.add-contact{
+  width: 100%;
+  border: none;
+  font-size: large;
+  padding: 15px 15px 15px 30px;
+  outline: none;
+  box-sizing: border-box;
 }
