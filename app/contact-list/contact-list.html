@@ -1,4 +1,9 @@
 <div class="contact-list">
   <user-header></user-header>
   <input #newContact (keyup.enter) = 'onEnterAddContact(newContact)' type="text" placeholder="Enter contacts name" class='add-contact'/>
+  <ul>
+    <li *ngFor = 'let contact of store.contacts'>
+      <contact [contact]="contact"></contact>
+    </li>
+  </ul>
 </div>

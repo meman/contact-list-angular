@@ -1,0 +1,18 @@
+<li class='contact'>
+  <i class="fa fa-user" aria-hidden="true"></i>
+  <div class='user-details'>
+    <strong>{{contact.name}}</strong>
+    <div class='user-phone'>
+      <i class="fa fa-phone" aria-hidden="true"></i> 679-xxx-xxx
+    </div>
+  </div>
+  <div class='contact-actions'>
+    <button (click) = "onToggleFavorate(contact)">
+      <i class="fa" [class.fa-star]="contact.favorite"
+      [class.fa-star-o]="!contact.favorite" aria-hidden="true"></i>
+    </button>
+    <button (click) = "onRemove(contact)">
+      <i class="fa fa-trash" aria-hidden="true"></i>
+    </button>
+  </div>
+</li>

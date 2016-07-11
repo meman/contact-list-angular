@@ -1,0 +1,35 @@
+.contact{
+  padding: 0px 20px 20px 20px;
+  margin-top: 15px;
+  border-bottom: solid 1px #e6e6e6;
+}
+
+.contact .fa-user{
+  font-size: 2em;
+  color: grey;
+  float: left;
+  margin-right: 10px;
+}
+
+.user-details{
+  display: inline-block;
+  width: 70%;
+  word-break: break-all;
+}
+
+.user-details .user-phone{
+  color: grey;
+  font-size: small;
+}
+
+.contact-actions{
+  float: right;
+}
+
+.contact-actions button{
+  color: #d84a4a;
+  font-size: 1.3em;
+  border-radius: 0.3em;
+  background-color: aliceblue;
+  border-color: #cecece;
+}
